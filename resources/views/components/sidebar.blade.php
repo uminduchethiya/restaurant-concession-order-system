@@ -9,7 +9,7 @@ class="w-64 h-screen overflow-y-hidden font-mono text-xl text-white transition-a
         </svg>
         Dashboard
     </a>
-    <a href="" class="block px-4 py-2 text-white rounded hover:bg-accent-1">
+    <a href="{{ route('conession_view') }}" class="block px-4 py-2 text-white rounded hover:bg-accent-1">
         <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2 text-white"
             viewBox="0 0 20 20" fill="currentColor">
             <path
@@ -17,7 +17,7 @@ class="w-64 h-screen overflow-y-hidden font-mono text-xl text-white transition-a
             <path fill-rule="evenodd" d="M4.5 1a.5.5 0 00-.5.5v17.793l4-4 4 4V1.5a.5.5 0 00-.5-.5h-7z"
                 clip-rule="evenodd" />
         </svg>
-        Clients
+        Concession
     </a>
     <a href="" class="block px-4 py-2 text-white rounded hover:bg-accent-1">
         <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2 text-white"
@@ -26,15 +26,6 @@ class="w-64 h-screen overflow-y-hidden font-mono text-xl text-white transition-a
                 d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm6 4a.5.5 0 11-1 0 .5.5 0 011 0z" />
         </svg>
         Services
-    </a>
-
-    <a href="" class="block px-4 py-2 text-white rounded hover:bg-accent-1">
-        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2 text-white"
-            viewBox="0 0 20 20" fill="currentColor">
-            <path
-                d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm6 4a.5.5 0 11-1 0 .5.5 0 011 0z" />
-        </svg>
-        Excel Upload
     </a>
     {{-- <a href="#" class="block px-4 py-2 text-white rounded hover:bg-accent-1">Primary Key 1</a>
     <a href="#" class="block px-4 py-2 text-white rounded hover:bg-accent-1">Primary Key 2</a>
