@@ -212,4 +212,7 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'RESTURENTSTAFF_DEFAULT_PASSWORD'=>env('RESTURENTSTAFF_DEFAULT_PASSWORD','resturentp'),
+    'KITCHENSTAFF_DEFAULT_PASSWORD'=>env('KITCHENSTAFF_DEFAULT_PASSWORD','kitchenp'),
+
 ];

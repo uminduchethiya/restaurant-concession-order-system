@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\ConcessionController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
+
 
 
 /*
@@ -18,4 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/dashboard',[DashboardController::class, 'index'])->name('dashboard');;
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::post('/addconcession', [ConcessionController::class, 'store'])->name('concessions.store');
+Route::get('/view-concession', [ConcessionController::class, 'index'])->name('conession_view');
+Route::get('/add-concessionview',[ConcessionController::class,'viewAddConcessionPage'])->name('conession_addview');
